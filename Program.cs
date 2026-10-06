@@ -4,14 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Multiply(2,5));
+            Console.WriteLine(Add(2,1));
         }
 
         private int Add(int x, int y){
             return x+y;
-        }
-        private int Multiply(int x, int y){
-            return x*y;
         }
 
     }
